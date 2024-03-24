@@ -1,15 +1,22 @@
 .slider-container {
-  width: 80%;
+  width: 100vw;
   margin: 0 auto;
   overflow: hidden;
+  height: 100vh;
 }
 
 .slider {
   display: flex;
-  transition: transform 0.5s ease;
+  transition: transform 2s ease;
 }
 
 .slide {
-  flex: 0 0 auto;
-  width: 100%;
+  flex: 0 0 33.3333333333%; /* Set each slide to occupy one-third of the slider width */
+  width: 50%;
+  padding: 0 10px; /* Add some padding to create space between slides */
+}
+
+.slide img {
+  width: 50%; /* Make all images within the slides occupy 100% of their container width */
+  height: auto; /* Maintain aspect ratio */
 }/*# sourceMappingURL=slider.css.map */

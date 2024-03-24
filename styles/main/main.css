@@ -1,6 +1,6 @@
 .main_text-box {
   background-color: white;
-  width: 100%;
+  width: 100vw;
   height: 312px;
   display: flex;
   align-items: center;

@@ -1,16 +1,18 @@
 .main {
     &_text-box {
         background-color: white;
-        width: 100%;
+        width: 100vw;
         height: 312px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        
 
         &__container {
             width: 50vw;
             height: 40px;
+
 
             &-text{
                 font-family: Roboto, sans-serif;

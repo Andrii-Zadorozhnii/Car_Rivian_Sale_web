@@ -13,8 +13,9 @@ $(document).ready(function () {
         });
 
         let slideCount = $('.slide').length;
-        let slideWidth = $('.slider-container').width();
+        let slideWidth = $('.slider-container').width() / 3; // Adjusting slide width for three slides
         let currentIndex = 0;
+        let interval = setInterval(nextSlide, 5000); // Automatically change slides every 5 seconds
 
         $('.slider').css('width', slideCount * slideWidth);
 
@@ -22,18 +23,28 @@ $(document).ready(function () {
             $('.slider').css('transform', 'translateX(-' + currentIndex * slideWidth + 'px)');
         }
 
-        $('.next').click(function () {
-            if (currentIndex < slideCount - 1) {
+        function nextSlide() {
+            if (currentIndex < slideCount - 3) { // Adjusted for three slides
                 currentIndex++;
                 slide();
+            } else {
+                currentIndex = 0;
+                slide();
             }
-        });
+        }
 
-        $('.prev').click(function () {
+        function prevSlide() {
             if (currentIndex > 0) {
                 currentIndex--;
                 slide();
+            } else {
+                currentIndex = slideCount - 3; // Adjusted for three slides
+                slide();
             }
-        });
+        }
+
+        $('.next').click(nextSlide);
+
+        $('.prev').click(prevSlide);
     });
 });
