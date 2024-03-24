@@ -1,0 +1,58 @@
+[
+  {
+    "name": "BMW E21",
+    "manufacture_begin": "1975",
+    "manufacture_end": "1983",
+    "characteristics": "Compact executive car",
+    "explanation": "The BMW E21 is the first generation of the BMW 3 Series compact executive cars, which replaced the BMW 02 Series. It was initially available as a 2-door sedan with various engine options.",
+    "image": "../media/photo/cars/BMW_E21_(1 Series).jpg"
+  },
+  {
+    "name": "BMW E30",
+    "manufacture_begin": "1982",
+    "manufacture_end": "1994",
+    "characteristics": "Compact executive car",
+    "explanation": "The BMW E30 is the second generation of the BMW 3 Series compact executive cars. It introduced several innovations and became a highly successful model known for its handling and performance.",
+    "image": "../media/photo/cars/BMW_E30_(2 Series).jpg"
+  },
+  {
+    "name": "BMW E36",
+    "manufacture_begin": "1990",
+    "manufacture_end": "2000",
+    "characteristics": "Compact executive car",
+    "explanation": "The BMW E36 is the third generation of the BMW 3 Series compact executive cars. It offered a wide range of body styles and engines, and it was known for its balanced handling and comfort.",
+    "image": "../media/photo/cars/BMW_E36_(3 Series).jpg"
+  },
+  {
+    "name": "BMW E46",
+    "manufacture_begin": "1997",
+    "manufacture_end": "2006",
+    "characteristics": "Compact executive car",
+    "explanation": "The BMW E46 is the fourth generation of the BMW 3 Series compact executive cars. It featured a refreshed design, improved handling, and a wide range of engine options.",
+    "image": "../media/photo/cars/BMW_E46_(3Series).jpg"
+  },
+  {
+    "name": "BMW E39",
+    "manufacture_begin": "1995",
+    "manufacture_end": "2004",
+    "characteristics": "Mid-size luxury car",
+    "explanation": "The BMW E39 is the fourth generation of the BMW 5 Series mid-size luxury cars. It offered a luxurious interior, advanced technology features, and a smooth ride.",
+    "image": "https://example.com/bmw_e39_side_view.jpg"
+  },
+  {
+    "name": "BMW E90",
+    "manufacture_begin": "2005",
+    "manufacture_end": "2013",
+    "characteristics": "Compact executive car",
+    "explanation": "The BMW E90 is the fifth generation of the BMW 3 Series compact executive cars. It introduced a refreshed design, improved performance, and advanced technology features.",
+    "image": "https://example.com/bmw_e90_side_view.jpg"
+  },
+  {
+    "name": "BMW F30",
+    "manufacture_begin": "2011",
+    "manufacture_end": "2019",
+    "characteristics": "Compact executive car",
+    "explanation": "The BMW F30 is the sixth generation of the BMW 3 Series compact executive cars. It featured a modern design, efficient engines, and a comfortable ride.",
+    "image": "https://example.com/bmw_f30_side_view.jpg"
+  }
+]
